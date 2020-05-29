@@ -1,28 +1,6 @@
+/* Font-family used for most of the webpage */
 a, h1, p, h5 {
     font-family: montserrat, montserrat light;
-}
-
-h1.box-header {
-    padding-top: 40px;
-}
-
-.navbar-brand {
-    padding: 16px;
-    position: absolute;
-    background-color: teal;
-}
-
-.navbar-nav {
-}
-
-.col-sm-7 {
-    margin-top: 20px;
-}
-
-.container {
-    background-color: whitesmoke;
-    margin-top: 30px;
-    margin-bottom: 80px;
 }
 
 body {
@@ -34,7 +12,22 @@ body {
     background-color: #ccc;
   }  
 
+/* Adding some colour to the logo in the nav bar */
+.navbar-brand {
+    padding: 16px;
+    position: absolute;
+    background-color: teal;
+}
 
+/* Some background colour for each container and some spacing */
+.container {
+    background-color: whitesmoke;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    padding-top: 40px;
+}
+
+/* all the styling for the footer */
   .footer {
     position: fixed;
     left: 0;
@@ -46,12 +39,11 @@ body {
     color: white;
   }
 
-
+/* media query for mobile device */
   @media only screen and (max-width: 640px) {
     .navbar-nav {
      position: relative;
      width: 100%;
      padding-left: 200px;
-     list-style-type: none ;
   }
   

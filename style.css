@@ -1,7 +1,45 @@
-.navbar-brand {
-    background-color: #62bb91;
-    padding: 13px;
-    position: absolute;
-    color: pink;
+a, h1, p, h5 {
+    font-family: montserrat, montserrat light;
 }
 
+h1.box-header {
+    padding-top: 40px;
+}
+
+.navbar-brand {
+    background-color: #62bb91;
+    padding: 16px;
+    position: absolute;
+}
+
+.col-sm-7 {
+    background-color: pink;
+    margin-top: 20px;
+}
+
+.container {
+    background-color: whitesmoke;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+body {
+    /* Typography */
+    font-size: 18px;
+    line-height: 27px;
+  
+    /* Visual */
+    background-color: #ccc;
+  }  
+
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+  }
